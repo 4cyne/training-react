@@ -1,0 +1,11 @@
+@import '../../assets/styles/variables';
+
+.header {
+	.header_row {
+		height: 80px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+}

@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables.scss';
+@import '../../assets/styles/mixins';
+.footer {
+	background-color: $black;
+	height: 70px;
+
+	> p {
+		padding: 25px 0 25px 150px;
+		height: 70px;
+		font-family: $font-family;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 180%;
+		text-transform: capitalize;
+		color: $neutral-graycbcbcb;
+	}
+}

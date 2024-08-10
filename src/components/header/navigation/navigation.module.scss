@@ -1,0 +1,23 @@
+@import '../../../assets/styles/variables';
+@import '../../../assets/styles/mixins';
+
+.navigate {
+	display: flex;
+	gap: 30px;
+	font-family: $font-family;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 180%;
+	text-transform: capitalize;
+	text-align: center;
+	color: $neutral-gray404040;
+
+	@include tablet {
+		gap: 15px;
+		font-size: 16px;
+	}
+
+	@include mobile {
+		display: none;
+	}
+}

@@ -1,0 +1,20 @@
+@import '../../../assets/styles/_variables.scss';
+@import '../../../assets/styles/mixins';
+
+.topInfo {
+	width: 100%;
+	background-color: $primary-primary-600;
+	font-weight: 600;
+	color: $white;
+	font-size: 12px;
+	letter-spacing: 0.07em;
+	text-align: center;
+	padding: 8px 0 7px 0;
+
+	@include mobile {
+		padding: 0;
+		font-weight: 400;
+		font-size: 10px;
+		line-height: 140%;
+	}
+}

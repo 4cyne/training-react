@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+.layout {
+	position: relative;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+
+	.container {
+		margin: 0 auto;
+		max-width: $container-width;
+		padding: $container-padding;
+		background-color: aliceblue;
+	}
+}

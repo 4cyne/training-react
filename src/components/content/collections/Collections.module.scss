@@ -1,0 +1,35 @@
+@import '../../../assets/styles/variables.scss';
+@import '../../../assets/styles/mixins';
+.collectionsContainer {
+	margin-top: 80px;
+	.title {
+		padding-bottom: $container-padding;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 140%;
+		text-transform: capitalize;
+		color: $black;
+		margin-left: 10px;
+	}
+
+	.collectionsCol {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1;
+		gap: 24px;
+		@include mobile {
+			gap: 5px;
+		}
+
+		.leftCol {
+			display: flex;
+			flex-direction: column;
+			gap: 64px;
+		}
+		.rightCol {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+}
